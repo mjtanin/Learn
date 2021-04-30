@@ -1,0 +1,25 @@
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.keys .key {
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.active {
+    border: 2px solid #ffc600;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffc600;
+}
